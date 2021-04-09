@@ -3,7 +3,7 @@ kind: Task
 metadata:
   creationTimestamp: null
   name: deploy-from-source-task
-  namespace: openshift-gitops
+  namespace: cicd
 spec:
   params:
   - default: "false"

@@ -3,7 +3,7 @@ kind: Route
 metadata:
   creationTimestamp: null
   name: taxi
-  namespace: openshift-gitops
+  namespace: dev
 spec:
   port:
     targetPort: 8080

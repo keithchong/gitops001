@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/name: taxi
     app.kubernetes.io/part-of: app-taxi
   name: taxi
-  namespace: openshift-gitops
+  namespace: dev
 spec:
   replicas: 1
   selector:

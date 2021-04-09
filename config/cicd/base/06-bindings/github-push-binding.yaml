@@ -3,7 +3,7 @@ kind: TriggerBinding
 metadata:
   creationTimestamp: null
   name: github-push-binding
-  namespace: openshift-gitops
+  namespace: cicd
 spec:
   params:
   - name: gitrepositoryurl

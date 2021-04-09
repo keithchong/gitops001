@@ -3,7 +3,7 @@ kind: TriggerBinding
 metadata:
   creationTimestamp: null
   name: dev-app-taxi-taxi-binding
-  namespace: openshift-gitops
+  namespace: cicd
 spec:
   params:
   - name: imageRepo
