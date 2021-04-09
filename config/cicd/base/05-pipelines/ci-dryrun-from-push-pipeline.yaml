@@ -3,7 +3,7 @@ kind: Pipeline
 metadata:
   creationTimestamp: null
   name: ci-dryrun-from-push-pipeline
-  namespace: cicd
+  namespace: openshift-gitops
 spec:
   resources:
   - name: source-repo
