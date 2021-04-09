@@ -3,7 +3,7 @@ kind: EventListener
 metadata:
   creationTimestamp: null
   name: cicd-event-listener
-  namespace: cicd
+  namespace: openshift-gitops
 spec:
   namespaceSelector: {}
   podTemplate: {}
