@@ -3,7 +3,7 @@ kind: Route
 metadata:
   creationTimestamp: null
   name: gitops-webhook-event-listener-route
-  namespace: cicd
+  namespace: openshift-gitops
 spec:
   host: ""
   port:
